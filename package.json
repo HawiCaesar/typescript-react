@@ -1,0 +1,27 @@
+{
+  "name": "typescript-react",
+  "version": "0.0.1",
+  "description": "Typescript react setup",
+  "main": "index.tsx",
+  "author": "HawiCaesar",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "webpack"
+  },
+  "dependencies": {
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "awesome-typescript-loader": "^3.5.0",
+    "path": "^0.12.7",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "source-map-loader": "^0.2.3",
+    "ts-loader": "3.5.0",
+    "typescript": "^2.7.2",
+    "webpack": "3.10.0",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "devDependencies": {}
+}
