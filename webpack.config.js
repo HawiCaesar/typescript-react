@@ -1,10 +1,13 @@
 var path = require("path");
 var config = {
-    entry: ["./app.tsx"],
+    entry: ["./App.tsx"],
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js"
     },
+    // devServer: {
+    //     contentBase: path.resolve(__dirname, 'src')
+    // },
     resolve: {
         extensions: [".ts", ".tsx", ".js"]
     },
