@@ -8,7 +8,7 @@
   "private": false,
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --hot --watch"
+    "start": "webpack && webpack-dev-server --hot --watch"
   },
   "dependencies": {
     "@types/react": "^16.0.38",
